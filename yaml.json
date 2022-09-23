@@ -1,0 +1,107 @@
+{
+	"snippet_a": {
+		"prefix": "snippet_a",
+		"body": [
+		  "-",
+		  "  type: a",
+		  "  attribute: ",
+		  "    class: btn btn-primary",
+		  "  innerHTML: $1"
+		],
+		"description": "."
+	},
+	"snippet_a_primary": {
+		"prefix": "snippet_a_primary",
+		"body": [
+		  "-",
+		  "  type: a",
+		  "  attribute: ",
+		  "    class: btn btn-primary",
+		  "  innerHTML: $1"
+		],
+		"description": "."
+	},
+	"snippet_p": {
+		"prefix": "snippet_p",
+		"body": [
+		  "-",
+		  "  type: p",
+		  "  innerHTML: $1"
+		],
+		"description": "."
+	},
+	"snippet_div": {
+		"prefix": "snippet_div",
+		"body": [
+		  "-",
+		  "  type: div",
+		  "  innerHTML: $1"
+		],
+		"description": "."
+	},
+	"snippet_div_alert_success": {
+		"prefix": "snippet_div_alert_success",
+		"body": [
+		  "-",
+		  "  type: div",
+		  "  attribute: ",
+		  "    class: alert alert-success",
+		  "  innerHTML: $1"
+		],
+		"description": "."
+	},
+	"snippet_div_row": {
+		"prefix": "snippet_div_row",
+		"body": [
+		  "-",
+		  "  type: div",
+		  "  attribute: ",
+		  "    class: row",
+		  "  innerHTML: $1"
+		],
+		"description": "."
+	},
+	"snippet_div_col_12": {
+		"prefix": "snippet_div_col_12",
+		"body": [
+		  "-",
+		  "  type: div",
+		  "  attribute: ",
+		  "    class: col-md-12",
+		  "  innerHTML: $1"
+		],
+		"description": "."
+	},
+	"snippet_img_thumbnail": {
+		"prefix": "snippet_img_thumbnail",
+		"body": [
+		  "-",
+		  "  type: img",
+		  "  attribute: ",
+		  "    src: /path/test.jpg"
+		],
+		"description": "."
+	},
+	"snippet_script": {
+		"prefix": "snippet_script",
+		"body": [
+		  "-",
+		  "  type: script",
+		  "  innerHTML: $1"
+		],
+		"description": "."
+	},
+	"snippet_widget": {
+		"prefix": "snippet_widget",
+		"body": [
+		  "-",
+		  "  type: widget",
+		  "  data:",
+		  "    plugin: $1",
+		  "    method: $2",
+		  "    data:",
+		  "      x: $3",
+		],
+		"description": "."
+	}
+}

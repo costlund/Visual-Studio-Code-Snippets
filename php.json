@@ -1,0 +1,19 @@
+{
+	"snippet_if": {
+		"prefix": "snippet_if",
+		"body": [
+			"if(true){",
+			"}"
+		],
+		"description": "."
+	},
+	"snippet_if_else": {
+		"prefix": "snippet_if_else",
+		"body": [
+			"if(true){",
+			"}else{",
+			"}"
+		],
+		"description": "."
+	}
+}
