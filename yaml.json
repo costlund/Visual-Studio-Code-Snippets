@@ -50,6 +50,28 @@
 		],
 		"description": "."
 	},
+	"snippet_div_container": {
+		"prefix": "snippet_div_container",
+		"body": [
+		  "-",
+		  "  type: div",
+		  "  attribute: ",
+		  "    class: container",
+		  "  innerHTML: $1"
+		],
+		"description": "."
+	},
+	"snippet_div_container-fluid": {
+		"prefix": "snippet_div_container-fluid",
+		"body": [
+		  "-",
+		  "  type: div",
+		  "  attribute: ",
+		  "    class: container-fluid",
+		  "  innerHTML: $1"
+		],
+		"description": "."
+	},
 	"snippet_div_row": {
 		"prefix": "snippet_div_row",
 		"body": [
