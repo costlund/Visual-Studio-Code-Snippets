@@ -94,6 +94,23 @@
 		],
 		"description": "."
 	},
+	"snippet_div_strong_span": {
+		"prefix": "snippet_div_strong_span",
+		"body": [
+		  "-",
+		  "  type: div",
+		  "  innerHTML:",
+		  "    - ",
+		  "      type: strong",
+		  "      attribute:",
+		  "        class: content-colon",
+		  "      innerHTML: $1",
+		  "    - ",
+		  "      type: span",
+		  "      innerHTML: $2"
+		],
+		"description": "."
+	},
 	"snippet_img_thumbnail": {
 		"prefix": "snippet_img_thumbnail",
 		"body": [
