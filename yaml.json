@@ -1,4 +1,36 @@
 {
+	"snippet_html": {
+		"prefix": "snippet_html",
+		"body": [
+      "settings:",
+      "  path: 'html/innerHTML/body/innerHTML'",
+      "content:",
+      "  doctype:",
+      "    type: text",
+      "    text: '<!DOCTYPE html>'",
+      "  html:",
+      "    type: html",
+      "    innerHTML:",
+      "      head:",
+      "        type: head",
+      "        innerHTML:",
+      "          -",
+      "            type: title",
+      "            innerHTML: yml:/theme/dev/theme/config/data.yml:title",
+      "          -",
+      "            type: widget",
+      "            data:",
+      "              plugin: 'theme/include'",
+      "              method: include",
+      "              data:",
+      "                bootswatch:",
+      "                  theme: Journal",
+      "      body:",
+      "        type: body",
+      "        innerHTML: _body_to_replace_"
+		],
+		"description": "."
+	},
 	"snippet_a": {
 		"prefix": "snippet_a",
 		"body": [
@@ -13,7 +45,7 @@
 	"snippet_a_primary": {
 		"prefix": "snippet_a_primary",
 		"body": [
-		  "-",
+      "-",
 		  "  type: a",
 		  "  attribute: ",
 		  "    class: btn btn-primary",
