@@ -1,4 +1,12 @@
 {
+	"snippet_foreach": {
+		"prefix": "snippet_foreach",
+		"body": [
+			"foreach($$data as $$k => $$v){",
+			"}"
+		],
+		"description": "."
+	},
 	"snippet_if": {
 		"prefix": "snippet_if",
 		"body": [
