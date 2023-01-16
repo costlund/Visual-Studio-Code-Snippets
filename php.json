@@ -32,5 +32,12 @@
 			"}"
 		],
 		"description": "."
+	},
+	"snippet_sys_help_print": {
+		"prefix": "snippet_sys_help_print",
+		"body": [
+			"wfHelp::print($data);"
+		],
+		"description": "."
 	}
 }
