@@ -184,5 +184,24 @@
 		  "  description: '$3.'",
 		],
 		"description": "."
+	},
+  "snippet_a_list_group": {
+		"prefix": "snippet_a_list_group",
+		"body": [
+		  "-",
+		  "  type: div",
+		  "  attribute:",
+		  "    class: list-group",
+		  "    style:",
+		  "        margin-bottom: 20px",
+		  "  innerHTML:",
+		  "    -",
+		  "      type: a",
+		  "      attribute:",
+		  "        class: list-group-item",
+		  "        href: $1",
+		  "      innerHTML: $2"
+		],
+		"description": "."
 	}
 }
