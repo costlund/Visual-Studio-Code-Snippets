@@ -174,5 +174,15 @@
 		  "      x: $3",
 		],
 		"description": "."
+	},
+	"snippet_manifest_version": {
+		"prefix": "snippet_manifest_version",
+		"body": [
+		  "1.0.0:",
+		  "  date: '2023-$1'",
+		  "  title: $2",
+		  "  description: '$3.'",
+		],
+		"description": "."
 	}
 }
