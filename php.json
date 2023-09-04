@@ -45,14 +45,10 @@
 		"body": [
 			"/**",
 			" * Description...",
-			" * @param string String...",
+			" * @param string $string",
 			" * @return array",
 			" */",
 		],
 		"description": "."
 	}
-
-
-
-	
 }
