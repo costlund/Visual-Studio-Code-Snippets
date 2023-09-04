@@ -40,4 +40,19 @@
 		],
 		"description": "."
 	}
+	,"snippet_php_function_comment": {
+		"prefix": "snippet_php_function_comment",
+		"body": [
+			"/**",
+			" * Description...",
+			" * @param string String...",
+			" * @return array",
+			" */",
+		],
+		"description": "."
+	}
+
+
+
+	
 }
